@@ -1,0 +1,54 @@
+URL: https://www.youtube.com/watch?v=8hly31xKli0&t=450s&ab_channel=freeCodeCamp.org
+Title: Algorithms and Data Structures
+Level: Beginners
+
+Instructor: Pasan Premaratne and Jay McGavren [Tree House]
+
+-------------------------------------------------------------------------------------
+
+Notes:
+
+Algorithm: A set of steps or instructions for completing a task.
+Properties:
+1. Clearly defined problem statement, input, and output.
+2. The steps in the algorithm need to be in a very specific order.
+3. The steps also need to be distinct.
+4. The algorithm should produce a result.
+5. The algorithm should complete in a finite amount of time.
+
+Two Important Property We need:
+1. Correctness: Algorithm should produce output for given input.
+2. Efficiency: There are 2 way to measure Efficiency.
+
+[1] Time complexity: How long algorithm takes to complete.
+> Big O : Theoretical definition of the complexity of an algorithm as a function of the size.
+- It is just a notation used describe the complexity.
+- Order of magnitude of complexity. (Function of the size)
+- Upper Bounds.
+
+[2] Space complexity: How much space algorithm takes to perform.(Memory)
+
+Searching Algorithms:
+1. Linear Search (Sequenciel Search)
+> Big O : O(n)
+> Linear runtine
+2. Binary Search
+> Big O : O(log n)
+> Logarithmic runtime (Sub-linear runtime)
+
+> Inverse of exponent is called logarithm.
+
+1. Linear Algorithms        > O(n)
+2. Binary Algorithms        > O(log n)
+3. Quadratic Algorithms     > O(n ^ 2)
+4. Quasilinear Algorithms   > O(n log n)
+
+> Polynomial Runtime Algorithms         > O(n ^ k)
+- They are efficient and can be used in practice.
+
+> Exponential Runtime Algorithms        > O(x ^ n)
+> Factorial / Combinatorial Algorithms  > O(n!)
+- They are inefficient and can'be used in practice.
+Example :
+1. Brute Force attack to crack the password.
+2. Travelling Salesman problem.
