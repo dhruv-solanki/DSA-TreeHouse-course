@@ -3,3 +3,4 @@ Day 2 > 01:04 H:M
 Day 3 > 01:41 H:M
 Day 4 > Coding Algorithms (Linear Search, Binary Search, Recursive Binary Search)
 Day 5 > Skipped
+Day 6 > 1:57 H:M (Part 1 - Introduction to Algorithms completed.)

@@ -52,3 +52,21 @@ Searching Algorithms:
 Example :
 1. Brute Force attack to crack the password.
 2. Travelling Salesman problem.
+
+> Recursive Algorithms and complexity
+Binary Search : Iterative Approach
+- Space complexity : O(1) - constant space
+Recursive Binary Search : Recursive Approach
+- Space complexity : O(Log n) - Logarithmic space
+
+- Python prefers iterative approach
+- The numbers of times recursive function calls it self is called recursive depth.
+- After some recursive depth the python might stop calling itself because it has reached it's recursive depth.
+
+> Tail Optimization/Tail Call Optmization:
+- If function is having a head and tail.
+- If the recursive function call is the last line of code in the function, then we call this a tail recursion.
+- Language like Swift stores the last recursive call into storage that is called tail opmization.
+- Now python doesn't provide this tail optimization that's why the recursive approach will take some space.
+- That's why for recursive approach of binary search the python will take logarithmic space complexity while other language which support optimization may take less space complexity or constant space complexity.
+- So while implementation of algorithms we can take programming language into account.
