@@ -1,0 +1,31 @@
+Notes :
+
+Part 2 - Introduction to Data Structures
+
+Data Structure:
+- A data storage format.
+- It is the collection of values and the format they are stored in, the relationships between the values in the collection as well as the operations applied on the data stored in the structure.
+
+Operations on the Data Structure.
+1. Access and read values.
+2. Search for an arbitary values.
+3. Insert values at any point into the structure.
+4. Delete values in the structure.
+
+> Array:
+- It stores collection of values.
+- Where each value is referenced using index or key.
+- It is a contiguous data structure.
+
+> In Swift and JAVA arrays are homogeneous containers.
+- Means array can only store value of same type.
+
+> In Python array are heterogeneous containers.
+- means array can store value of different data types.
+
+> Inserting element into array at first position is linear time operation.
+> Inserting element into array at last position (appending) is constant time operation.
+> Appending can take - Ammortized Constant Space Complexity.
+- Because some operation take constant time while other operation can take more than constant time.
+- Python increases memory size in order of, 4, 8, 16, 25... and so on.
+- So 1st to 4th opeartion may take constant time but appending 5th element can increase the space complexity.

@@ -1,12 +1,6 @@
-URL: https://www.youtube.com/watch?v=8hly31xKli0&t=450s&ab_channel=freeCodeCamp.org
-Title: Algorithms and Data Structures
-Level: Beginners
-
-Instructor: Pasan Premaratne and Jay McGavren [Tree House]
-
--------------------------------------------------------------------------------------
-
 Notes:
+
+Part 1 - Introduction to Algorithms
 
 Algorithm: A set of steps or instructions for completing a task.
 Properties:
@@ -29,7 +23,7 @@ Two Important Property We need:
 [2] Space complexity: How much space algorithm takes to perform.(Memory)
 
 Searching Algorithms:
-1. Linear Search (Sequenciel Search)
+1. Linear Search (Sequencial Search)
 > Big O : O(n)
 > Linear runtine
 2. Binary Search
