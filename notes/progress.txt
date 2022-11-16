@@ -5,3 +5,4 @@ Day 4 > Coding Algorithms (Linear Search, Binary Search, Recursive Binary Search
 Day 5 > Skipped
 Day 6 > 1:57 H:M (Part 1 - Introduction to Algorithms completed.)
 Day 7 > 2:23 H:M (Part 2 - Introduction to Data Structure started.)
+Day 8 > 2:48 H:M (Coding Linked List till searching)
