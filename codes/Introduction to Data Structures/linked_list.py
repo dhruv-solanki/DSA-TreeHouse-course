@@ -67,6 +67,56 @@ class LinkedList:
     
     return None
 
+  def insert(self, data, index):
+    """
+    Inserts a new Node containing data at index position.
+    Inserting the Node in list takes O(1) time.
+    But Finding the Node at index position takes O(n) time.
+
+    Takes overall, O(n) time
+    """
+    
+    if(index == 0):
+      self.add(data)
+
+    new_node = Node(data)
+    
+    position = index
+    current = self.head
+
+    while position > 1:
+      current = current.next_node
+      position -= 1
+
+    prev_node = current
+    next_node = current.next_node
+
+    prev_node.next_node = new_node
+    new_node.next_node = next_node
+
+  def remove(self, key):
+    """
+    Removes the Node containing data that matches the key.
+    Returns the Node or None if key doesn't exist.
+    Takes O(n) time
+    """
+    previous = None
+    current = self.head
+    found = False
+
+    while current and not found:
+      if(current.data == key and current is self.head):
+        found = True
+        self.head = current.next_node
+      elif(current.data == key):
+        found = True
+        previous.next_node = current.next_node
+      else:
+        previous = current
+        current = current.next_node
+      
+    return current
+
   def __repr__(self):
     """
     Return a string representation of the list
