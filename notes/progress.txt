@@ -1,9 +1,10 @@
-Day 1 > 00:40 H:M (Part 1 - Introduction to Algorithms started.)
-Day 2 > 01:04 H:M
-Day 3 > 01:41 H:M
-Day 4 > Coding Algorithms (Linear Search, Binary Search, Recursive Binary Search)
-Day 5 > Skipped
-Day 6 > 1:57 H:M (Part 1 - Introduction to Algorithms completed.)
-Day 7 > 2:23 H:M (Part 2 - Introduction to Data Structure started.)
-Day 8 > 2:48 H:M (Coding Linked List till searching.)
-Day 9 > 3:03 H:M (Singly Linked List code completed.)
+Day 1 >     00:40 H:M (Part 1 - Introduction to Algorithms started.)
+Day 2 >     01:04 H:M
+Day 3 >     01:41 H:M
+Day 4 >     Coding Algorithms (Linear Search, Binary Search, Recursive Binary Search)
+Day 5 >     Skipped
+Day 6 >     1:57 H:M (Part 1 - Introduction to Algorithms completed.)
+Day 7 >     2:23 H:M (Part 2 - Introduction to Data Structure started.)
+Day 8 >     2:48 H:M (Coding Linked List till searching.)
+Day 9 >     3:03 H:M (Singly Linked List code completed.)
+Day 10 >    3:35 H:M (Merge Sort Algorithm code implemented.)
